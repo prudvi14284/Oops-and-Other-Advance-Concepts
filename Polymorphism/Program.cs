@@ -34,9 +34,14 @@ namespace Polymorphism
     {
         static void Main(string[] args)
         {
-            Animal myAnimal = new Animal();  // Create an Animal object
-            Animal myPig = new Cat();  // Create a Cat object
-            Animal myDog = new Dog();  // Create a Dog object
+            Animal myAnimal; //referenc variable
+            myAnimal  = new Animal();  // Create an Animal object
+
+            Animal myPig; //referenc variable
+            myPig = new Cat();  // Create a Cat object
+
+            Animal myDog; //referenc variable
+            myDog  = new Dog();  // Create a Dog object
 
             myAnimal.animalSound();
             myPig.animalSound();
